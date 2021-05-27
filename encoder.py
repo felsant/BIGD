@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 
 from tqdm import tqdm
-from sklearn.externals import joblib
+import joblib
 
 from utils import HParams, preprocess, iter_data
 
