@@ -206,9 +206,3 @@ class Model(object):
         self.transform = transform
         self.cell_transform = cell_transform
 
-
-if __name__ == '__main__':
-    mdl = Model()
-    text = ['demo!']
-    text_features = mdl.transform(text)
-    print(text_features.shape)
