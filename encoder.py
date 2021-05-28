@@ -8,6 +8,7 @@ import joblib
 from utils import HParams, preprocess, iter_data
 
 tf.compat.v1.disable_eager_execution()
+tf.disable_v2_behavior()
 
 global nloaded
 nloaded = 0
